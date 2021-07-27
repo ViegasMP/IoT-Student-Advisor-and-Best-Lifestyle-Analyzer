@@ -1,1 +1,17 @@
 # IoT-Student-Advisor-and-Best-Lifestyle-Analyzer
+Introdução às Redes de Comunicação LEI UC 2018/2019
+
+# Context
+
+The advent of Internet of Things (IoT) is becoming a reality: a global network of sensors, mobile phones and computing devices that can sensor and communicate in real time. According to a recent research report, the wireless Machine-to-Machine (M2M) market is expected to account for nearly $196 Billion in revenue by 2020, following a compound annual growth rate of 21% during the six years between 2014 and 2020. From the use of these diverse computational elements rises the concept of cyber- physical systems (CPSs), which consists on the sensing and control of physical phenomena through these networks of interconnected devices that work together to achieve common goals.
+
+While these interconnected and intelligent tools communicate with each other without any human involvement, human technology is made by humans for humans. Indeed, one important element often left out of current cyber-physical research is the human user. On the other hand, systems that consider the human context will become increasingly more important, and most future technologies will converge onto human-awareness. Since humans are often considered unpredictable, bringing them into CPSs is a very interesting challenge, as it requires modeling of behavioral, psychological and physiological aspects of human nature. Within these aspects, a multitude of variables regarding the person’s status may be measured, including movement, vital signs, attention level and any other facet that may be interesting to control the task at hand.
+
+# ISABELA
+One particular scenario where the IoT and CPS concepts may be applied is the improvement of education. Previous work at Dartmouth College has presented an system named StudentLife [1], which uses Android phones to continuously sense the day-to-day impact of workload on stress, sleep, activity, mood, sociability, mental well-being and academic performance of a single class of 48 students across a 10 week term. The authors of StudentLife identified a strong correlation between the automatic sensing data and several mental well-being measures, specifically, PHQ-9 depression, perceived stress, flourishing, and loneliness scales. Their results indicated that automatically sensed conversation, activity, mobility, and sleep have significant correlations with mental well-being outcomes and academic performance.
+
+While StudentLife provided a great example on how IoT devices (smartphones) can be very helpful in acquiring a student’s context, the scope of the system was limited. The objective of the study was only to obtain a statistical dataset, containing the behavioral and mental health outcomes of the students. The system did not take any measures to counteract the student’s negative academic performance or undesirable lifestyles.
+
+ISABELA intends to extend StudentLife’s ideas by taking a proactive approach to “close the loop” by the use of a chat bot (figure 2). In other words, ISABELA not only automatically infers student context (activity, sociability, stress, sleep, mood, mental well-being) but also feeds this information to a decision-making process, which takes measures to improve academic performance.
+
+ISABELA also uses Social Sensors, from social networks like Facebook and Twitter. In fact, these can also be used as sensors of great potential to infer human states.

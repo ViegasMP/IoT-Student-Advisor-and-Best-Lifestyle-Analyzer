@@ -15,3 +15,30 @@ While StudentLife provided a great example on how IoT devices (smartphones) can 
 ISABELA intends to extend StudentLife’s ideas by taking a proactive approach to “close the loop” by the use of a chat bot (figure 2). In other words, ISABELA not only automatically infers student context (activity, sociability, stress, sleep, mood, mental well-being) but also feeds this information to a decision-making process, which takes measures to improve academic performance.
 
 ISABELA also uses Social Sensors, from social networks like Facebook and Twitter. In fact, these can also be used as sensors of great potential to infer human states.
+
+# Functionalities to implement
+Users should be able to access two types of data: private data and group data. The first is related to the user data, and all fields should be retrieved to the student. The student is identified by an ID.
+On the other hand, the second group of the data should be anonymized. Here, users can subscribe specific group data. This data should be collected in the ISABELA server, anonymized by the privacy server that should be implemented in this class assignment, and then retrieved to the subscribers. For instance, the activity of the users of a group should be anonymized by retrieving the number of users in each activity, instead of the user IDs and their activity. Similar solutions should be applied for the remaining fields. It is up to the students to select the most appropriate privacy methods for each field.
+
+*Private data:
+- Any user may be able to collect each own private data and will not be allowed to query other student’s data. To do it, the student will need to use its ID from the ISABELA application. The privacy server will need to block other students to access to the data.
+
+- On receiving the data, the user needs to show the data in the client application;
+
+- Any user may collect the data in two distinct modes: by query and by subscription. Subscriptions can be changed or deleted.
+
+*Group conversations:
+- Users will be able to get the list of groups available on the privacy server. Each group will be identified by a group id;
+- Similar to private data, users may be allowed to query or to make subscriptions to the group data;
+- Subscriptions can be changed or deleted;
+- All users that subscribe a specific group, need to be informed when changes occurred to the data of the group.
+
+*General:
+- Students cannot access to other student's data, only to anonymized group data;
+
+- The privacy server needs to anonymize all the fields of the students’ data, like activity, location, nearby devices, etc.
+
+- The privacy server will maintain all the data in memory, also because privacy concerns;
+
+- All the data collected by the clients should be presented on the screen.
+
